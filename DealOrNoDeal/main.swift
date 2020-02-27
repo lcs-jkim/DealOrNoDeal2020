@@ -72,6 +72,7 @@ var briefcaseValues = [100, 500, 1_000, 5_000, 10_000, 25_000, 50_000, 100_000, 
 // An integer between 1 and 10, inclusive
 func getBriefcaseOpened(onTurn turn: Int) -> Int {
     
+    
     // STUDENTS: Complete this function
     while true {
         
