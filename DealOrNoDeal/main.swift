@@ -90,7 +90,14 @@ func getBriefcaseOpened(onTurn turn: Int) -> Int {
             continue
         }
         
-        // Make sure it's an actual number within range 
+        // Make sure it's an actual number within range
+        guard integerGiven2 > 0, integerGiven2 < 11 else {
+            
+            // Back to the top if it dosen't work
+            continue
+        }
+        
+        // Ok now we know it works 
         
     }
     
