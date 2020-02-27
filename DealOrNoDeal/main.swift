@@ -73,7 +73,26 @@ var briefcaseValues = [100, 500, 1_000, 5_000, 10_000, 25_000, 50_000, 100_000, 
 func getBriefcaseOpened(onTurn turn: Int) -> Int {
     
     // STUDENTS: Complete this function
+    while true {
+        
+        // Ask for what brief cases have been opened
+        print("Which briefcases has been opened on turn \(turn)? ")
+        guard let inputGiven2 = readLine() else {
     
+            // return to top if no input given
+            continue
+        }
+        
+        // If it works, make it an integer
+        guard let integerGiven2 = Int(inputGiven2) else {
+            
+            // return to top if it dosen't work
+            continue
+        }
+        
+        // Make sure it's an actual number within range 
+        
+    }
     
     // The statement below can be modified
     return 0
