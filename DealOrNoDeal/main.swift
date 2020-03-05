@@ -118,7 +118,27 @@ for turn in 1...briefcasesOpened {
     
     // STUDENTS: Now that you know what briefcase is opened... what might you do to the array value(s)?
     briefcaseValues[briefcaseOpenedThisTime - 1] = 0
+}
+
+func bankersOffer() -> Int {
     
+    while true {
+        
+        print("What was the bankers offer?")
+        guard let input = readLine() else {
+            
+            // If no input, go to top
+            continue
+        }
+        
+        guard let integerInput3 = Int(input) else {
+            
+            // If not an integer, go to top
+            continue
+        }
+        
+        // Can comfirm the input is valid
+    }
 }
 
 // STUDENTS: Do any remaining calculations you might need below.
