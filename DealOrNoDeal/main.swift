@@ -101,6 +101,8 @@ func getBriefcaseOpened(onTurn turn: Int) -> Int {
         // Ok now we know it works
         briefcasesOpened = integerGiven2
         
+        break
+        
     }
     
     // The statement below can be modified
