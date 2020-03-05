@@ -120,7 +120,7 @@ for turn in 1...briefcasesOpened {
     briefcaseValues[briefcaseOpenedThisTime - 1] = 0
 }
 
-func bankersOffer() -> Int {
+func bankersOffer(onTurn turn: Int) -> Int {
     
     while true {
         
@@ -138,6 +138,8 @@ func bankersOffer() -> Int {
         }
         
         // Can comfirm the input is valid
+        return integerInput3
+        
     }
 }
 
